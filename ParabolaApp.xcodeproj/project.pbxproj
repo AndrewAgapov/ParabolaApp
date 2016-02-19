@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49E109FC1C74C4950018767C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E109FB1C74C4950018767C /* AppDelegate.swift */; };
+		49E109FE1C74C4950018767C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E109FD1C74C4950018767C /* ViewController.swift */; };
+		49E10A011C74C4950018767C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E109FF1C74C4950018767C /* Main.storyboard */; };
+		49E10A031C74C4950018767C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E10A021C74C4950018767C /* Assets.xcassets */; };
+		49E10A061C74C4950018767C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E10A041C74C4950018767C /* LaunchScreen.storyboard */; };
+		49E10A0E1C74C62F0018767C /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E10A0D1C74C62F0018767C /* GraphView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49E109F81C74C4950018767C /* ParabolaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParabolaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E109FB1C74C4950018767C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49E109FD1C74C4950018767C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49E10A001C74C4950018767C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49E10A021C74C4950018767C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49E10A051C74C4950018767C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49E10A071C74C4950018767C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E10A0D1C74C62F0018767C /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49E109F51C74C4950018767C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49E109EF1C74C4940018767C = {
+			isa = PBXGroup;
+			children = (
+				49E109FA1C74C4950018767C /* ParabolaApp */,
+				49E109F91C74C4950018767C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49E109F91C74C4950018767C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49E109F81C74C4950018767C /* ParabolaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49E109FA1C74C4950018767C /* ParabolaApp */ = {
+			isa = PBXGroup;
+			children = (
+				49E109FB1C74C4950018767C /* AppDelegate.swift */,
+				49E109FD1C74C4950018767C /* ViewController.swift */,
+				49E10A0D1C74C62F0018767C /* GraphView.swift */,
+				49E109FF1C74C4950018767C /* Main.storyboard */,
+				49E10A021C74C4950018767C /* Assets.xcassets */,
+				49E10A041C74C4950018767C /* LaunchScreen.storyboard */,
+				49E10A071C74C4950018767C /* Info.plist */,
+			);
+			path = ParabolaApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49E109F71C74C4950018767C /* ParabolaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E10A0A1C74C4950018767C /* Build configuration list for PBXNativeTarget "ParabolaApp" */;
+			buildPhases = (
+				49E109F41C74C4950018767C /* Sources */,
+				49E109F51C74C4950018767C /* Frameworks */,
+				49E109F61C74C4950018767C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParabolaApp;
+			productName = ParabolaApp;
+			productReference = 49E109F81C74C4950018767C /* ParabolaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49E109F01C74C4940018767C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AndrewAgapov;
+				TargetAttributes = {
+					49E109F71C74C4950018767C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 69339GY5KN;
+					};
+				};
+			};
+			buildConfigurationList = 49E109F31C74C4940018767C /* Build configuration list for PBXProject "ParabolaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49E109EF1C74C4940018767C;
+			productRefGroup = 49E109F91C74C4950018767C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49E109F71C74C4950018767C /* ParabolaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49E109F61C74C4950018767C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E10A061C74C4950018767C /* LaunchScreen.storyboard in Resources */,
+				49E10A031C74C4950018767C /* Assets.xcassets in Resources */,
+				49E10A011C74C4950018767C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49E109F41C74C4950018767C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E109FE1C74C4950018767C /* ViewController.swift in Sources */,
+				49E109FC1C74C4950018767C /* AppDelegate.swift in Sources */,
+				49E10A0E1C74C62F0018767C /* GraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49E109FF1C74C4950018767C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E10A001C74C4950018767C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49E10A041C74C4950018767C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E10A051C74C4950018767C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49E10A081C74C4950018767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49E10A091C74C4950018767C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49E10A0B1C74C4950018767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParabolaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agapov.ParabolaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49E10A0C1C74C4950018767C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParabolaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agapov.ParabolaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49E109F31C74C4940018767C /* Build configuration list for PBXProject "ParabolaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E10A081C74C4950018767C /* Debug */,
+				49E10A091C74C4950018767C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E10A0A1C74C4950018767C /* Build configuration list for PBXNativeTarget "ParabolaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E10A0B1C74C4950018767C /* Debug */,
+				49E10A0C1C74C4950018767C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49E109F01C74C4940018767C /* Project object */;
+}
